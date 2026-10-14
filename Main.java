@@ -97,6 +97,11 @@ public class Main {
                         );
 
                         System.out.printf(
+                                "Tong luong: %,.0f VND%n",
+                                totalSalary
+                        );
+
+                        System.out.printf(
                                 "Luong trung binh: %,.0f VND%n",
                                 averageSalary
                         );
@@ -109,11 +114,6 @@ public class Main {
                         System.out.printf(
                                 "Luong thap nhat: %,.0f VND%n",
                                 minSalary
-                        );
-
-                        System.out.printf(
-                                "Tong luong: %,.0f VND%n",
-                                totalSalary
                         );
                     }
                     break;
